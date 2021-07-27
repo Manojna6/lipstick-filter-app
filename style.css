@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    color: #5AB1BB;
+    background-color:rgb(16, 0, 24)
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 200px;
+}
+button{
+    padding:10px;
+    background-color: #A5C882;
+    border-radius: 50px;
+    color: black;
+}
+h3{
+    color:#F7DD72;
+}
+@keyframes example
+{
+    0% {box-shadow: 1px 1px 38px #F7DD72;}
+    25% {box-shadow: 1px 1px 38px #A5C882}
+    50% {box-shadow: 1px 1px 38px #5AB1BB;}
+    100% {box-shadow: 1px 1px 38px #AD5CFF;}
+}
